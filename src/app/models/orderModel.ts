@@ -1,6 +1,6 @@
 import {BaseModel} from '../baseModel';
-import {Product} from '../products/productModel';
-import {User} from '../users/userModel';
+import {Product} from './productModel';
+import {User} from './userModel';
 
 export interface Order extends BaseModel {
   products: Product[];
